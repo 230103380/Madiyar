@@ -21,7 +21,7 @@ class JobInfo extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // --- HEADER JOB ---
+           
             Container(
               padding: const EdgeInsets.all(16),
               decoration: const BoxDecoration(color: Colors.white),
@@ -70,7 +70,6 @@ class JobInfo extends StatelessWidget {
             ),
             const SizedBox(height: 5),
 
-            // --- APPLY BEFORE + JOB NATURE ---
             Container(
               padding: const EdgeInsets.all(16),
               decoration: const BoxDecoration(color: Colors.white),
@@ -182,7 +181,6 @@ class JobInfo extends StatelessWidget {
 
             const SizedBox(height: 5),
 
-            // --- JOB DESCRIPTION ---
             Container(
               decoration: const BoxDecoration(color: Colors.white),
               child: Padding(
@@ -235,8 +233,6 @@ class JobInfo extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 5),
-
-            // --- ROLES AND RESPONSIBILITIES ---
             Container(
               padding: const EdgeInsets.all(16),
               decoration: const BoxDecoration(color: Colors.white),
